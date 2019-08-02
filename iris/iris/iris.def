@@ -1,0 +1,16 @@
+LIBRARY	iris
+;--------------------------------------------------------------------
+;Module:
+;   dbgexts.def
+;--------------------------------------------------------------------
+
+EXPORTS
+
+;--------------------------------------------------------------------
+; These are the extension functions exported by sysexts.dll
+;--------------------------------------------------------------------
+	help
+	modules
+	
+    DebugExtensionInitialize
+   	DebugExtensionUninitialize
