@@ -22,6 +22,8 @@ If you don't know the meaning of some of the keywords above use google, you'll f
 
 To "install", copy `iris.dll` into the `winext` folder for WinDbg (for `x86` and `x64`).
 
+### WinDbg 10.0.xxxxx
+
 Unless you installed the debug tools in a non standard path you'll find the `winext` folder at:
 
 ```
@@ -34,7 +36,19 @@ Or, for 32 bits:
 C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\winext
 ```
 
-After, just load the extension with `.load iris` and run `!iris.help` to see the available command(s).
+### WinDbg Preview
+
+Unless you ~installed~ copied WinDbg preview into a non standard location you'' have in a folder with a name close to the one below (depending on the installed version):
+
+```
+C:\Program Files\WindowsApps\Microsoft.WinDbg_1.1906.12001.0_neutral__9wekib2d8acwe
+```
+
+For 64 bits copy `iris.dll` into `amd64\winext` and for 32 bits copy `iris.dll` into `x86\winext`.
+
+### Load the extension
+
+After the steps above, just load the extension with `.load iris` and run `!iris.help` to see the available command(s).
 
 ```
 0:002> .load iris
