@@ -38,7 +38,7 @@ C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\winext
 
 ### WinDbg Preview
 
-Unless you ~installed~ copied WinDbg preview into a non standard location you'' have in a folder with a name close to the one below (depending on the installed version):
+Unless you ~installed~ copied WinDbg preview install folder into a non standard location you'll have it in a folder with a name close to the one below (depending on the installed version):
 
 ```
 C:\Program Files\WindowsApps\Microsoft.WinDbg_1.1906.12001.0_neutral__9wekib2d8acwe
